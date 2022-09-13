@@ -1,0 +1,121 @@
+<!doctype html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>IT</title>
+		<style>
+			h1.Home {
+				text-align: center;
+			}
+			h1.Home a {
+				cursor: pointer;
+				text-decoration : none;
+				color : black;
+				font-size: 80px;
+			}
+			#menubar {
+				background : white;
+			}
+			#menubar ul {
+				text-align: center;
+				margin : 0;
+				padding : 0;
+				width : 100%;
+			}
+			#menubar ul li {
+				display : inline-block;
+				list-style-type : none;
+				padding : 0px 15px;
+			}
+			#menubar ul li a {
+				color : black;
+  				text-decoration : none;
+  				transition : font-size 1s;
+  				font-size: 27px;
+			}
+			#menubar ul li a:hover {
+ 				color : gray;
+ 				font-size : 35px;
+			}
+			footer {
+				background-color : white;
+				color : black;
+			}
+			footer div a {
+				text-decoration: none;
+				color : black;
+			}
+
+			article ul li {
+				list-style-type: none;
+				display : inline-block;
+			}
+			input[type=text]:hover {
+				border : 2px solid skyblue;
+				border-radius: 5px;
+				background : aliceblue;
+			}
+
+			article ul li:hover {
+				transform : scale(1.3,1.3);
+			}
+		</style>
+		<script>
+			function text() {
+				alert("잘못된 접근입니다.");
+			}
+		</script>
+	</head>
+	<body>
+		<h1 class="Home"><a href="myweb.html">IT</a></h1>
+		<nav id="menubar">
+		<ul>
+			<li><a href="myweb.html" target="_self"><b>Home</b></a></li>
+			<li><a href="Twice.html" target="_self"><b>SAMSUNG</b></a></li>
+			<li><a href="Third.html" target="_self"><b>APPLE</b></a></li>
+			<li><a href="Fourth.html" target="_self"><b>LG</b></a></li>
+			<li><a href="Fifth.html" target="_self"><b>etc</b></a></li>
+		</ul>
+		</nav>
+
+
+		<section>
+			<article>
+				<hr>
+				<h3>이 홈페이지는 여러 다양한 회사의 핸드폰, 태블릿, 노트북, 무선 이어폰에 대한 정보가 담겨져 있습니다.</h3><hr>
+			</article>
+			<article>
+				<h3>Companies</h3>
+				<ul>
+					<li><a href="https://www.samsung.com/" target="_blank"><img src="media/samsunggalaxy.jpg" width="200px" height="90px"></a></li>
+					<li><a href="https://www.apple.com/" target="_blank"><img src="media/apple.jpg" width="90px" height="90px"></a></li>
+					<li><a href="https://www.lge.co.kr/" target="_blank"><img src="media/lg.jpg" width="160px" height="90px"></a></li>
+					<li><a href="https://www.google.com/" target="_blank"><img src="media/google.jpg" width="180px" height="90px"></a></li>
+					<li><a href="https://www.huawei.com/kr/" target="_blank"><img src="media/huawei.jpg" width="90px" height="90px"></a></li>
+					<li><a href="https://www.mi.com/kr/" target="_blank"><img src="media/xiaomi.jpg" width="90px" height="90px"></a></li>
+					<li><a href="https://www.lenovo.com/" target="_blank"><img src="media/lenovo.jpg" width="250px" height="90px"></a></li>
+					<li><a href="https://www.amazon.com/" target="_blank"><img src="media/amazon.jpg" width="250px" height="90px"></a></li>
+					<li><a href="https://www.asus.com/kr/" target="_blank"><img src="media/asus.jpg" width="240px" height="90px"></a></li>
+					<li><a href="https://www.hp.com/kr-ko/" target="_blank"><img src="media/hp.jpg" width="90px" height="90px"></a></li>
+					<li><a href="https://www.sony.co.kr/" target="_blank"><img src="media/sony.jpg" width="210px" height="90px"></a></li>
+					<li><a href="http://bose.co.kr/" target="_blank"><img src="media/bose.jpg" width="800px" height="90px"></a></li>
+					<li><a href="https://www.samsung.com/sec/harman/jbl/" target="_blank"><img src="media/jbl.jpg" width="150px" height="90px"></a></li>
+					<li><a href="https://www.qcykorea.com/" target="_blank"><img src="media/qcy.jpg" width="270px" height="90px"></a></li>
+				</ul><hr>
+			</article>
+			<article>
+				<h3>방명록</h3>
+				<input type="text" placeholder="이름"><br>
+				<textarea rows="10" cols="50" placeholder="이곳에 방명록을 작성해주세요."></textarea><br>
+				<button onclick="text()">입력</button><br>
+			</article>
+		</section>
+
+		
+		<hr><footer>
+			<div><a href="myweb.html">myweb.html</a></div>
+			<div style="font-size : 25px"><b>hth4513@naver.com</b></div>
+			<div style="font-size: 10px">Copyright &copy; 2022 by Taehun. All Rights Reserved.</div>
+		</footer>
+	</body>
+	</html>
